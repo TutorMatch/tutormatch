@@ -1,0 +1,67 @@
+.letraAzul{
+    color: #40A8C5
+}
+
+.borderBotAzul{
+    border-bottom: 1px solid #BCDBDE
+}
+
+.borderIzqAzul{
+    border-left: 1px solid #BCDBDE
+}
+
+p{
+    font-size: 10px;
+}
+
+h1, h5{
+    padding: 20px 0px;
+}
+
+button{
+    background-color:#F7AB00;
+    color: white;
+}
+
+.centrado{
+    display: block;
+    margin: auto;
+}
+
+.contenedor{
+    padding-top: 40px;
+    color: #235786;
+}
+
+.littleEspacio{
+    padding: 10px;
+}
+
+.checkmark {
+    height: 18px;
+    width: 18px;
+}
+
+li.inLine{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+footer {
+    background-color: #235786;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover {
+    color: #F7AB00;
+    text-decoration: none;
+}

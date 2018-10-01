@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="media/icons/font-awesome/css/font-awesome.min.css">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Registro</title>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light borderBotAzul">
+		<a class="navbar-brand" href="#">
+			<img src="media/img/icon.jpg" width="40" height="40" alt="icon">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			
+			<ul class="navbar-nav mr-auto">
+                <!--
+				<li class="nav-item">
+					<a class="nav-link" style="color: #40A8C5" href="#">Login</a>
+				</li>
+			-->
+		</ul>
+		
+		<ul class="navbar-nav my-2 my-lg-0">
+			<li class="nav-item">
+				<a class="nav-link" style="color: #40A8C5" href="#">Inicia Sesión</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<!--Contenedor-->
+<div class="container text-center text-md-left">
+	
+	<div class="row">
+		
+		<div class="col contenedor">
+			<h1 class="text-start">Regístrate</h1>
+			
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+					</div>
+					<div class="form-group col-md-6">
+						<input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+					</div>
+				</div>
+				
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<input type="email" class="form-control" id="inputCorreo" placeholder="Correo">
+					</div>
+					<div class="form-group col-md-6">
+						<input type="text" class="form-control" id="inputTelefono" placeholder="Telefono">
+					</div>
+				</div>
+				
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<input type="password" class="form-control" id="inputContra" placeholder="Contraseña">
+					</div>
+					<div class="form-group col-md-6">
+						<input type="password" class="form-control" id="inputConfContra" placeholder="Confirmar contraseña">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<div class="form-check">
+						<input class="form-check-input checkmark" type="checkbox" id="checkTutor">
+						<label class="form-check-label" for="checkTutor">
+							Quiero ser Tutor
+						</label>
+					</div>
+				</div>
+				
+				<div id="isTutor">
+					<div class="form-group">
+						<textarea class="form-control" id="inputBio" rows="3" placeholder="Hablanos de ti"></textarea>
+						
+						<h5>¿Que temas dominas?</h5>
+						
+						<div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkJava" value="Java">
+							<label class="form-check-label" for="checkJava">Java</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkCSS" value="CSS">
+							<label class="form-check-label" for="checkCSS">CSS</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkHTML" value="HTML">
+							<label class="form-check-label" for="checkHTML">HTML</label>
+						</div>
+                        <div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkC#" value="C#">
+							<label class="form-check-label" for="checkC#">C#</label>
+						</div>
+                        <div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkC++" value="C++">
+							<label class="form-check-label" for="checkC++">C++</label>
+						</div>
+                        <div class="form-check form-check-inline">
+							<input class="form-check-input checkmark" type="checkbox" id="checkJavaScript" value="JavaScript">
+							<label class="form-check-label" for="checkJavaScript">JavaScript</label>
+						</div>
+						
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col col-md-7 offset-md-1 littleEspacio">
+						<button type="submit" class="btn text-uppercase btn-lg">Registrarte</button>
+					</div>
+				</div>
+				
+			</form>
+			
+		</div>
+
+
+		<div class="col contenedor borderIzqAzul">
+			<div class="row">
+				<img id="imagenUsuario" class="rounded-circle centrado" src="media/img/user.png">
+			</div>
+			<div class="row justify-content-center">
+				<form>
+					<div class="form-group littleEspacio">
+						<input type="file" class="form-control-file" id="inputImagenUsuario">
+					</div>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+
+	<div class="container text-center text-md-left">
+		
+		<div class="row">
+			
+			<div class="col-md-3 mx-auto">
+				<p class="font-weight-light text-uppercase mt-3 mb-2">TutorMatch</p>
+				<ul class="list-unstyled">
+					<li>
+						<a href="#!">Conviértete en Tutor</a>
+					</li>
+					<li>
+						<a href="#!">Regístrate</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-3 mx-auto">
+				<p class="font-weight-light text-uppercase mt-3 mb-2">Ayuda</p>
+				<ul class="list-unstyled">
+					<li>
+						<a href="#!">Aviso de Privacidad</a>
+					</li>
+					<li>
+						<a href="#!">Téerminos y Condiciones</a>
+					</li>
+				</ul>
+			</div>
+
+			
+			<div class="col-md-3 mx-auto">
+				<p class="font-weight-light text-uppercase mt-3 mb-2">Envíanos un mensaje</p>
+				<ul class="list-unstyled">
+					<li>
+						<a href="#!">Contáctanos</a>
+					</li>
+					<li>
+						<a href="#!">tutormatch@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 mx-auto">
+				<p class="font-weight-light text-uppercase mt-3 mb-2">Redes Sociales</p>
+				<ul class="list-unstyled"> 
+					<li class="inLine">
+						<a href="#">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+					<li class="inLine">
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li class="inLine">
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</footer>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
